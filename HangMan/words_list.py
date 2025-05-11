@@ -1,0 +1,2 @@
+word_list = ["galaxy", "pebble", "flame", "harmony", "whisper", "jigsaw", "quill", "zephyr", "cascade", "ember",
+             "serendipity", "ripple", "twilight", "nectar", "spectacle", "labyrinth", "glimpse", "sonnet", "myriad", "tranquil"]
