@@ -9,6 +9,11 @@ class Scoreboard(Turtle):
         self.left_score = 0
         self.right_score = 0
         self.update_scoreboard()
+        self.show_title()
+
+    def show_title(self):
+        self.goto(0, 260)
+        self.write("PONG", align="center", font=("Courier", 24, "bold"))
 
 
     def update_scoreboard(self):
@@ -24,3 +29,9 @@ class Scoreboard(Turtle):
     def r_point(self):
         self.right_score+=1
         self.update_scoreboard()
+
+    def game_over(self, winner):
+        self.goto(0, 0)
+        self.write(f"Game Over! {winner} Wins!", align="center", font=("Courier", 30, "bold"))
+
+
